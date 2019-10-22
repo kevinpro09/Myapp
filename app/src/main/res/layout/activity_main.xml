@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+       <RelartiveLayout
+           android:layout_width="match-parent"
+           android:layout_height="80dp"
+           android:background="#00BCD4"
+           android:gravity="center"
+           android:paddingRight="20dp"
+           android:paddingLeft="20dp"
+           android:paddingtop="20dp"
+           android:paddingButtom="20dp"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap-content"
+               android:text="ingresar"
+               android:textSize="24dp"
+               android:textColor="#101111"/>
+
+       </RelartiveLayout>
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:columnCount="1"
+           android:rowCount="2">
+
+           <EditText
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:hint="usuario"
+               />
+           <EditText
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:hint="Contraseña"
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ingresar"
+               android:layout_gravity="center"/>
+
+       </GridLayout>
+               android:hint="Usuario"
+               />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:layout_gravity="center"/>
+
+
+    </GridLayout>
